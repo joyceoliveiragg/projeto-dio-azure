@@ -1,0 +1,46 @@
+﻿{
+  "analises": [
+    {
+      "frase_analisada": "O atendimento ao cliente da empresa foi péssimo.",
+      "resultado": {
+        "sentimento": "NEGATIVE",
+        "confianca": 0.84,
+        "modelo_utilizado": "distilbert-base-uncased-finetuned-sst-2-english",
+        "tempo_processamento": "0.0s"
+      }
+    },
+    {
+      "frase_analisada": "O shampoo Elseve Glycolic Gloss deixa o cabelo brilhoso, macio e saudável.",
+      "resultado": {
+        "sentimento": "POSITIVE",
+        "confianca": 0.92,
+        "modelo_utilizado": "distilbert-base-uncased-finetuned-sst-2-english",
+        "tempo_processamento": "0.1s"
+      }
+    },
+    {
+      "frase_analisada": "O atendimento da cafeteria Topázio no Espinheiro foi horrível.",
+      "resultado": {
+        "sentimento": "NEGATIVE",
+        "confianca": 0.98,
+        "modelo_utilizado": "distilbert-base-uncased-finetuned-sst-2-english",
+        "tempo_processamento": "0.0s"
+      }
+    },
+    {
+      "frase_analisada": "O atendimento não foi bom, mas o produto compensou.",
+      "resultado": {
+        "sentimento": "MIXED",
+        "confianca": 0.75,
+        "modelo_utilizado": "distilbert-base-uncased-finetuned-sst-2-english",
+        "tempo_processamento": "0.7s",
+        "detalhes": "Contém elementos positivos e negativos"
+      }
+    }
+  ],
+  "metadados": {
+    "plataforma": "Hugging Face (alternativa ao Azure Language Studio)",
+    "data_analise": "2025-04-04",
+    "autor": "Joyce Gomes"
+  }
+}
